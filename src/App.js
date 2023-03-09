@@ -1,18 +1,19 @@
-import Header from './components/Header';
-import About from './components/About';
-import Projects from './components/Projects';
+import React, { useState } from 'react';
 import Footer from './components/Footer';
-
-
+import Navigation from './components/Navigation';
+import Showcase from './components/Showcase';
+import AboutMe from './components/pages/AboutMe';
 
 function App() {
+  const [activeSection, setActiveSection] = useState('showcase'); // Set the initial active section to 'showcase'
+
   return (
-  <div>
-    <Header> </Header>
-    <About> </About>
-    <Projects> </Projects>
-    <Footer> </Footer>
-  </div>
+    <div>
+      <Navigation setActiveSection={setActiveSection} />
+      {activeSection === 'showcase' && <Showcase />}
+      {activeSection === 'aboutme' && <AboutMe />}
+      <Footer />
+    </div>
   );
 }
 

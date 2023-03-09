@@ -1,21 +1,14 @@
-import React, { useState } from 'react';
-import About from "./About";
-import Navigation from "./Navigation";
-import Projects from "./Projects";
-import Footer from "./Footer";
-// This is just placeholder garbage for now
+import React from 'react';
+import './css/Header.css';
+
 function Header() {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header className='hero-section'>
+      <div className='hero-content'>
+        <h1>Test</h1>
+      </div>
     </header>
-  );
+  )
 }
 
 export default Header;
