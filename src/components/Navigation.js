@@ -3,7 +3,7 @@ import ButtonComponent from './ButtonComponent';
 
 function Navigation(props) {
   return (
-    <nav className='navbar navbar-expand-lg navbar-dark bg-dark' style={{position: 'sticky', top: 0}}>
+    <nav className='navbar navbar-expand-lg navbar-dark bg-dark' style={{position: 'sticky', top: 0, zIndex: 99}}>
       <div className='container-fluid justify-content-between'>
         <div className='navbar-brand text-white'>Joshua Orlando</div>
 

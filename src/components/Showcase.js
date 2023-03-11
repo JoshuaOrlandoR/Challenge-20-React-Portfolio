@@ -6,7 +6,7 @@ function Showcase() {
     return (
         <>
         <Header />
-        {/* <Projects /> */}
+        <Projects />
         </>
     );
 }
