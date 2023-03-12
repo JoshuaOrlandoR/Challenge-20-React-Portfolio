@@ -13,13 +13,15 @@
   * [Questions](#questions) 
  
   ## Description
-  This is a react powered application that serves as a portfolio to show employers.  
+  This is a react powered application that serves as a portfolio to show employers. To view, go here! https://joshuaorlandor.github.io/Challenge-20-React-Portfolio/ 
 
   ## Requirements
   This application just requires the link to view, it is not a practical application that serves a purpose for the average user. 
 
   ## Installation
   Users do not need to install this application, however, they can, if they want, run this page locally. To do so, download the repository and open it in a coding enviornment like VS code. In a terminal, run npm i and npm start, to install dependencies, and launch the page locally. Otherwise, just view the live app with the github pages link!
+  <br>
+  Link to live site - https://joshuaorlandor.github.io/Challenge-20-React-Portfolio/
 
   ## Useage
   Users need only to use the link to view the application. 
