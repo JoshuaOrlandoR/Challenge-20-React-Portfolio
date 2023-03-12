@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.github-link:hover {
+  color: #FFB6C1	 !important;
+}
+
+.linkedin-link:hover {
+  color: #0072b1 !important;
+}
+
+.email-link:hover {
+  color:orangered !important
+}
+
+
