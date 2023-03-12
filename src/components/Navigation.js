@@ -10,7 +10,7 @@ function Navigation(props) {
         <ul className='navbar-nav'>
           <li className='nav-item'>
             <ButtonComponent 
-              text='Home' 
+              text='Portfolio' 
               onClick={() => props.setActiveSection('showcase')}
               activeSection={props.activeSection}
               sectionName="showcase"

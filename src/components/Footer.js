@@ -8,7 +8,7 @@ function Footer() {
           <div className="col-md-12">
             <p className="text-center">
               <p>A React Powered Portfolio</p>
-              <p>Created by Joshua Orlando </p>
+              <p>-- Created by Joshua Orlando -- </p>
               <p>Thank you for taking a look at my page! Please feel free to reach out at any of the following</p>
             </p>
             <hr className="border-top border-white my-3" />
