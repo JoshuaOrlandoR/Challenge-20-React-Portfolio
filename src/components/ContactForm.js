@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './css/Contact.css';
-import Testimonials from './pages/Testimonials'; 
+import Testimonials from './Testimonials'; 
 
 // Found a tutorial and followed it on how to manage different useStates for a contact form, but I couldn't manage to get it to work exactly how I wanted
 // This current form is just a concept atm, will change later 

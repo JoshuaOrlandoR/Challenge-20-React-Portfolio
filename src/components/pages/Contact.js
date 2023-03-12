@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from '../ContactForm';
-import Testimonials from './Testimonials';
+import Testimonials from '../Testimonials';
 
 function Contact() {
   return (
