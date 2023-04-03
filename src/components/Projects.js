@@ -21,11 +21,11 @@ const cardData = [
   },
   {
     id: 3,
-    title: 'Placeholder',
-    image: 'https://i.pinimg.com/originals/86/c0/8b/86c08b1adc64b6a3b2a0476ffc15ff3b.jpg',
-    description: 'The placiest holder that ever placeholdered. This is a placeholder. This is not a real project! Eventually a real project will go here. But not right now. >:)',
-    liveAppUrl: 'https://example.com',
-    githubRepoUrl: 'Placeholder'
+    title: 'JACE',
+    image: 'https://cdn.midjourney.com/95b5453d-8c16-4368-ac0e-d221889b68ae/grid_0.png',
+    description: '(thumbnail is placeholder for now) JACE is a full-stack web application that allows users (both restauraunt owners and clients) to handle orders, payment, and kitchen information for local restauraunts!',
+    liveAppUrl: 'https://jace1971.herokuapp.com/',
+    githubRepoUrl: 'https://github.com/cdennis27/JACE'
   },
   {
     id: 4,
